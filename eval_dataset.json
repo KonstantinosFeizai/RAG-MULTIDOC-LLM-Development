@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "What is the Work-From-Anywhere allowance?",
+    "required_keywords": ["25", "business days", "HR"]
+  },
+  {
+    "id": 2,
+    "question": "When is a medical certificate required for absences?",
+    "required_keywords": ["3 consecutive days", "medical certificate"]
+  },
+  {
+    "id": 3,
+    "question": "What are the rules for padel or tennis scoring?",
+    "required_keywords": ["tennis", "padel"]
+  }
+]

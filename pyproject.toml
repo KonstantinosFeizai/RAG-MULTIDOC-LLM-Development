@@ -1,0 +1,25 @@
+[project]
+name = "rag-01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Konstantinos Feizai", email = "KonstantinosFeizai@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "docling>=2.150.1",
+    "numpy>=2.5.4",
+    "rank-bm25>=0.2.2",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.3.0",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+rag-01 = "rag_01:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
